@@ -110,7 +110,9 @@ const Chat = () => {
         <div className="suggestions">
           <p>Try asking:</p>
           <ul>
-            <li>Hi, what is the weather</li>
+            <li>
+              <p className="message-text">i, what is the weather</p>
+            </li>
             <li>Hi, what is my location</li>
             <li>Hi, what is the temperature</li>
             <li>Hi, how are you</li>
